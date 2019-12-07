@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+/*Desktop/ Gobal View*/
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #028089;
+}
+.col {
+  float: left;
+  padding: 1%;
+}
+.col-lg {
+  width: 31.3%;
+}
+.col-lg img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.slicknav_menu {
+  display: none;
+}
+#menu {
+  float: right;
+}
+#menu li {
+  display: inline-block;
+}
+#menu li a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  font-size: 18px;
+}
+header {
+  padding: 20px 30px 30px 30px;
+}
+.hero {
+  background-image: url("images/Raven-3.jpg");
+  padding: 52px 0px 72px 72px;
+  background-size: cover;
+}
+
+.subheading {
+	color: #e2a912;
+	font-weight: 700;
+	font-size: 40px;
+	margin-top: -54;
+}
+
+h1 {
+  color: #e2a912;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: -40px;
+}
+.heading-body-copy {
+  color:#e2a912;
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 20%;
+}
+.Contact-Me {
+  background-color: #e2a912;
+  padding: 8px 30px;
+  text-decoration: inherit;
+  text-align: center;
+  font-size: 40;
+  font-weight: 500;
+  color: white;
+}
+/*Tablet View*/
+@media (max-width: 768px) {
+  #menu li {
+    display: block;
+    text-align: right;
+  }
+  .col-mid {
+    width: 48%;
+  }
+}
+/*Mobile View*/
+@media (max-width: 400px) {
+  .slicknav_menu {
+    display: block;
+  }
+  #menu li {
+    display: none;
+  }
+  .col-sm {
+    width: 100%;
+  }
+  .col {
+    padding: 0%;
+  }
+}
